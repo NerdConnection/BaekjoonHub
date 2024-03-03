@@ -16,8 +16,5 @@ for i in range(n):
     for j in range(k):
         for p in range(m):
             arr3[i][j] += arr[i][p] * arr2[p][j]
-
-for i in range(n):
-    for j in range(k):
         print(arr3[i][j], end = ' ')
     print()
